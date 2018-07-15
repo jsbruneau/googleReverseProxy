@@ -1,0 +1,15 @@
+{
+  "name": "googlereverseproxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy that allows for CORS on google.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "JS Bruneau",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.17.0"
+  }
+}
